@@ -1,0 +1,15 @@
+$name$
+$location$
+$email$
+$phone$
+$github$
+$if(website)$
+$website$
+$if(linkedin)$
+$linkedin$
+$endif$
+$elseif(linkedin)$
+linkedin
+$endif$
+
+$body$
